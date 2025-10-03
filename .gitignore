@@ -1,0 +1,74 @@
+# === GLOBAL ===
+*.env
+.env.*
+*.log
+*.sqlite3
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.swp
+
+# === PYTHON / DJANGO ===
+*.db
+db.sqlite3
+media/
+staticfiles/
+venv/
+.env
+.env.local
+*.pot
+*.pyc
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.coverage
+.tox/
+.idea/
+.vscode/
+*.egg-info/
+*.egg
+build/
+dist/
+*.manifest
+celerybeat-schedule
+
+# Django migrations (you may want to track them after initial commit)
+**/migrations/__pycache__/
+**/migrations/*.py[cod]
+**/migrations/*.py~
+
+# === NODE / VITE / REACT ===
+# Ignore frontend dependencies
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Output from Vite (dist is typical build output)
+frontend/dist/
+
+# Optional Vite cache
+frontend/.vite/
+
+# IDEs / editors
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.vscode/
+.idea/
+
+# System files
+*.DS_Store
+*.bak
+*.tmp
+*.orig
