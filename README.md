@@ -118,8 +118,7 @@ npm run dev
 
 The app will typically run on:
 
-- [http://localhost:3000](http://localhost:3000)
-- OR [http://localhost:5173](http://localhost:5173) (if using Vite)
+- [http://localhost:5173](http://localhost:5173)
 
 > 🌐 Your browser should automatically open the application. If not, navigate to the local address shown in the terminal.
 
