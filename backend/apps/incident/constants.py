@@ -1,0 +1,21 @@
+# Severity
+SEVERITY_P0 = 'P0'
+SEVERITY_P1 = 'P1'
+SEVERITY_P2 = 'P2'
+SEVERITY_CHOICES = [
+    (SEVERITY_P0, 'Critical'),
+    (SEVERITY_P1, 'High'),
+    (SEVERITY_P2, 'Medium'),
+]
+
+# Status
+STATUS_NEW = 'NEW'
+STATUS_IN_PROGRESS = 'IN_PROGRESS'
+STATUS_RESOLVED = 'RESOLVED'
+STATUS_CLOSED = 'CLOSED'
+STATUS_CHOICES = [
+    (STATUS_NEW, 'New'),
+    (STATUS_IN_PROGRESS, 'In Progress'),
+    (STATUS_RESOLVED, 'Resolved'),
+    (STATUS_CLOSED, 'Closed'),
+]
